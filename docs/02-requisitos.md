@@ -225,13 +225,13 @@ O e-mail informado deverá estar em um formato válido.
 
 ### RN011
 
-O número do chamado deverá ser gerado automaticamente pelo sistema e não poderá ser alterado.
+O número do chamado deverá ser gerado automaticamente pelo sistema, de forma sequencial.
 
 ---
 
 ### RN012
 
-O número do chamado deverá permanecer único durante toda a vida útil do sistema.
+O número do chamado deverá ser único e não poderá ser alterado após sua criação.
 
 ---
 
