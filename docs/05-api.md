@@ -119,7 +119,25 @@ Exemplo:
 ```
 GET /api/v1/tickets?page=1&limit=20
 ```
+Resposta:
 
+```json
+{
+  "success": true,
+  "message": "Chamados listados com sucesso.",
+  "data": [
+    {
+      "ticket_number": "CH-000001"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 125,
+    "pages": 7
+  }
+}
+```
 ---
 
 ### Buscar chamado pelo ID
