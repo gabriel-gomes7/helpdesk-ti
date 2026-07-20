@@ -50,9 +50,9 @@ Exemplo:
 | 200 | OK |
 | 201 | Created |
 | 400 | Bad Request |
+| 422 | Unprocessable Entity |
 | 404 | Not Found |
 | 500 | Internal Server Error |
-
 ---
 
 # Endpoints
@@ -333,6 +333,8 @@ A API deverá validar:
 - Existência do status;
 - Campos vazios;
 - Tipos de dados enviados.
+
+Quando os dados enviados não atenderem às regras de validação, a API deverá retornar o código HTTP **422 (Unprocessable Entity)** juntamente com a descrição dos campos inválidos.
 
 ---
 
