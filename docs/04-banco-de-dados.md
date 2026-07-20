@@ -182,10 +182,10 @@ Cada registro representa um chamado.
 | status_id | BIGINT | ✅ |
 | description | TEXT | ✅ |
 | technician_notes | TEXT | ❌ |
+| resolution_notes | TEXT | ❌ |
 | created_at | TIMESTAMP | ✅ |
 | updated_at | TIMESTAMP | ✅ |
 | closed_at | TIMESTAMP | ❌ |
-
 ---
 
 # Regras de Integridade
