@@ -55,6 +55,9 @@ tickets (N)
 ## requesters
 
 Armazena os colaboradores que realizam solicitações de suporte.
+Cada colaborador será cadastrado apenas uma vez no sistema.
+
+Um mesmo colaborador poderá possuir vários chamados associados ao seu cadastro, estabelecendo uma relação de um para muitos (1:N) entre `requesters` e `tickets`.
 
 | Campo | Tipo | Obrigatório |
 |--------|------|-------------|
