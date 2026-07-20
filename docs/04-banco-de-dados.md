@@ -147,7 +147,7 @@ Cada registro representa um chamado.
 | Campo | Tipo | Obrigatório |
 |--------|------|-------------|
 | id | BIGSERIAL | ✅ |
-| code | VARCHAR(20) | ✅ |
+| ticket_number | VARCHAR(20) | ✅ |
 | requester_id | BIGINT | ✅ |
 | category_id | BIGINT | ✅ |
 | priority_id | BIGINT | ✅ |
@@ -195,8 +195,8 @@ Cada registro representa um chamado.
 - Todo chamado pertence a uma categoria.
 - Todo chamado possui uma prioridade.
 - Todo chamado possui um status.
-- O código do chamado deve ser único.
-- O e-mail do colaborador deve ser único.
+- O número do chamado (ticket_number) deve ser único.
+- O número do chamado (ticket_number) deve ser único e nunca poderá ser reutilizado.
 - A data de abertura é gerada automaticamente.
 - A data de atualização é alterada automaticamente sempre que houver modificações.
 - A data de encerramento somente será preenchida quando o chamado for finalizado.
