@@ -148,21 +148,6 @@ GET /api/v1/tickets/number/CH-000001
 
 ---
 
-### Pesquisar chamados
-
-**GET** `/api/v1/tickets/search?q=texto`
-
-Descrição:
-
-Pesquisa chamados por número, colaborador ou descrição.
-
-Exemplo:
-
-```
-GET /api/v1/tickets/search?q=impressora
-```
-
----
 
 ### Editar chamado
 
